@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Техномарт</title>
+</head>
 
-  </body>
+<body>
+
+  <header class="main-header">
+    <nav class="main-navigation">
+      <!-- С точки зрения логики, в навигацию входят логотип, главное меню, блок "Поиск+закладки+корзина+оформить" и пользовательское меню. Абзац с описанием и контакты в навигацию не входят. Но как это потом стилизовать?...  -->
+      <p class="header-logo">
+        <a>Техномарт</a>
+      </p>
+      <ul class="site-navigation">
+        <li class="site-navigation-item">
+          <a class="site-navigation-link">Главная</a>
+        </li>
+        <li class="site-navigation-item">
+          <a class="site-navigation-link" href="#">Компания</a>
+        </li>
+        <li class="site-navigation-item">
+          <a class="site-navigation-link" href="#">Каталог</a>
+        </li>
+        <li class="site-navigation-item">
+          <a class="site-navigation-link" href="#">Новости</a>
+        </li>
+        <li class="site-navigation-item">
+          <a class="site-navigation-link" href="#">Спецпредложения</a>
+        </li>
+        <li class="site-navigation-item">
+          <a class="site-navigation-link" href="#">Доставка</a>
+        </li>
+        <li class="site-navigation-item">
+          <a class="site-navigation-link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <div class="header-service">
+        <p class="search">
+          <!-- Здесь будет поиск -->
+        </p>
+        <a class="bookmarks" href="#">
+          Закладки:
+          <span class="bookmarks-amount">0</span>
+        </a>
+        <a class="cart" href="#">
+          Корзина:
+          <span class="cart-amount">0</span>
+        </a>
+        <a class="order" href="#">Оформить заказ</a>
+      </div>
+      <ul class="user-navigation user-navigation-off">
+        <li class="user-navigation-item user-login">
+          <a class="user-navigation-link" href="#">Войти</a>
+        </li>
+        <li class="user-navigation-item user-register">
+          <a class="user-navigation-link" href="#">Регистрация</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="header-description">
+      Интернет-магазин строительных материалов и инструментов для ремонта
+    </p>
+    <div class="header-contacts">
+      <p class="header-phone">+7 (812) 555-05-55</p>
+      <p class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+    </div>
+  </header>
+
+</body>
+
 </html>
